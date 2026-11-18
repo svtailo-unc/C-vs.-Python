@@ -2,9 +2,21 @@
 
 ## Overview
 
-<!-- Introduce your topic, explain what you explored, and summarize your most interesting discoveries. -->
+### Goal
+Benchmark the performance of C vs. Python
 
-_Write your overview here._
+### Method
+- Create programs that iterates to a value N and print primes along the way 
+- Use similar algorithm and same hardware. 
+- Time the full run and inner loop of both across 5 different run 
+
+### Results
+| Run #| Measurment Location|  C | Python | 
+|----------|----------|----------|----------|
+|Run 1|Full|0.005|0.001| 
+|Run 1|Inner Loop|0.005| 0.001| 
+
+
 
 ## How to Use
 
