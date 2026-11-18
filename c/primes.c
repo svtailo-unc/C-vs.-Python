@@ -3,7 +3,6 @@
 #include <time.h>
 
 #define LIMIT 1000000
-#define MAX_PRIMES LIMIT/2
 
 int is_prime(int n, Vector* v){
     int curr = 0;
@@ -50,6 +49,6 @@ int main(void){
                  + (end.tv_nsec - start.tv_nsec) / 1e9;
 
     printf("Loop time: %.6f s\n", elapsed_s);
-    
+
     return 0;
 }
