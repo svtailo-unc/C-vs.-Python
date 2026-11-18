@@ -11,11 +11,27 @@ Benchmark the performance of C vs. Python
 - Time the full run and inner loop of both across 5 different run 
 
 ### Results
-| Run #| Measurment Location|  C | Python | 
-|----------|----------|----------|----------|
-|Run 1|Full|0.005|0.001| 
-|Run 1|Inner Loop|0.005| 0.001| 
+#### Full Program
 
+| Run #   | C (s)  | Python (s) |
+|---------|--------|------------|
+| Run 1   | 10.019 | 52.748     |
+| Run 2   | 9.690  | 52.587     |
+| Run 3   | 9.632  | 52.882     |
+| Run 4   | 9.589  | 52.995     |
+| Run 5   | 9.658  | 53.306     |
+| **Average** | **9.718** | **52.904** |
+
+#### Inner Loop Only
+
+| Run #   | C (s)  | Python (s) |
+|---------|--------|------------|
+| Run 1   | 9.706  | 52.704     |
+| Run 2   | 9.685  | 52.545     |
+| Run 3   | 9.627  | 52.841     |
+| Run 4   | 9.584  | 52.970     |
+| Run 5   | 9.653  | 53.264     |
+| **Average** | **9.651** | **52.865** |
 
 
 ## How to Use
